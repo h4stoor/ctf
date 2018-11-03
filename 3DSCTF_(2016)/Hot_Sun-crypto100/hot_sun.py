@@ -1,16 +1,17 @@
-
 from string import ascii_letters
+
 
 s = 'hv1g_f0h_1g_b0h_g0_V0h'
 
+
 def shift_letters(text, i):
-    s = ''
+    result = ''
     for char in text:
         if char in ascii_letters:
-            s += (2*ascii_letters)[ascii_letters.index(char)+i]
+            result += (2 * ascii_letters)[ascii_letters.index(char) + i]
         else:
-            s += char
-    return s
+            result += char
+    return result
 
 
 n = 1

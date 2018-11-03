@@ -27,7 +27,7 @@ When you run the program without any parameters, there is no output:
 After giving any arguments the program writes a false flag:
 
 ```
-# ./rev1_merces 221 dasdas
+# ./rev1_merces 222 asdf
 3DS{c0ruj0u}
 #
 ```

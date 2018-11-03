@@ -12,8 +12,7 @@
 
 The solution was surprisingly short.
 
-The flag is encoded in `base64`.
-
+The flag is encoded in `base64`.<br>
 After decoding I wrote the values of the characters:
 
 ```
@@ -24,10 +23,8 @@ After decoding I wrote the values of the characters:
 [102, 136, 166, 246, 212, 96, 144, 220, 190, 136, 96, 102, 190, 178, 222, 170, 190, 140, 104, 98, 216, 250]
 ```
 
-You can see that the values are a bit big.
-
-It is known that the beginning of the flag is `3DS{`.
-
+You can see that the values are a bit big.<br>
+It is known that the beginning of the flag is `3DS{`.<br>
 Values of these chars are:
 
 ```
@@ -35,8 +32,7 @@ Values of these chars are:
 [51, 68, 83, 123]
 ```
 
-That's half the size.
-
+That's half the size.<br>
 So it was enough to reduce the value of all chars by half.
 
 ```
@@ -52,8 +48,7 @@ So it was enough to reduce the value of all chars by half.
 
 Rozwiązanie było zaskakująco krótkie.
 
-Flaga jest zakodowana w `base64`.
-
+Flaga jest zakodowana w `base64`.<br>
 Po rozkodowaniu wypisałem wartości poszczególnych znaków:
 
 ```
@@ -64,10 +59,8 @@ Po rozkodowaniu wypisałem wartości poszczególnych znaków:
 [102, 136, 166, 246, 212, 96, 144, 220, 190, 136, 96, 102, 190, 178, 222, 170, 190, 140, 104, 98, 216, 250]
 ```
 
-Widać, że wartości są trochę duże.
-
-Wiadomo, że początek flagi, to `3DS{`.
-
+Widać, że wartości są trochę duże.<br>
+Wiadomo, że początek flagi, to `3DS{`.<br>
 Wartości tych znaków, to:
 
 ```
@@ -75,8 +68,7 @@ Wartości tych znaków, to:
 [51, 68, 83, 123]
 ```
 
-Czyli o połowę mniejsze.
-
+Czyli o połowę mniejsze.<br>
 Wystarczyło zatem zmniejszyć wartości wszystkich znaków o połowę.
 
 ```

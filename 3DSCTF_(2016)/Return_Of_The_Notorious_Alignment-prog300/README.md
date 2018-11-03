@@ -1,4 +1,6 @@
-Zadanie z kategorii PROG za 300 punktów.
+## Return Of The Notorious Alignment [PROG 300]
+
+>Solve the challenges given by our server in 209.190.1.131 9002
 
 Drugie z serii 4 bardzo podobnych zadań:
 
@@ -7,12 +9,9 @@ Drugie z serii 4 bardzo podobnych zadań:
  * [Fibonacci Calls (prog 400)](Fibonacci_Calls-prog400)
  * [Vibranium Circuit Challenge (prog 400)](Vibranium_Circuit_Challenge-prog400)
 
-Treść zadania:
+### Rozwiązanie:
 
-Solve the challenges given by our server in 209.190.1.131 9002
-
-
-Łączenie z serwerem `nc 209.190.1.131 9002` i... dalszy ciąg porównywania obcego DNA :-)
+Łączenie z serwerem `nc 209.190.1.131 9002` i dalszy ciąg porównywania obcego DNA.
 
 ```
            +++           Comparison Challenge          +++

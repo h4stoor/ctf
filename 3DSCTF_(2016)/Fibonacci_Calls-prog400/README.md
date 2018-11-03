@@ -1,4 +1,6 @@
-Zadanie z kategorii PROG za 400 punktów.
+## Fibonacci Calls [PROG 400]
+
+>Access the server in 54.175.35.248:8000
 
 Trzecie z serii 4 bardzo podobnych zadań:
 
@@ -7,12 +9,9 @@ Trzecie z serii 4 bardzo podobnych zadań:
  * [Fibonacci Calls (prog 400)](Fibonacci_Calls-prog400)
  * [Vibranium Circuit Challenge (prog 400)](Vibranium_Circuit_Challenge-prog400)
 
-Treść zadania:
+### Rozwiązanie:
 
-Access the server in 54.175.35.248:8000
-
-
-`nc 54.175.35.248 8000` i treść zadania:
+`nc 54.175.35.248 8000` i właściwa treść zadania:
 
 ```
            +++         Fibonacci challenge               +++
@@ -63,11 +62,11 @@ import functools
 def fibo_count(n):
     if n < 2:
         return 1
-    return fibo_count(n-2) + fibo_count(n-1)
+    return fibo_count(n - 2) + fibo_count(n - 1)
 
 
 for n in [3, 5, 10, 15, 20, 40, 100, 250, 500]:
-	answer = str(fibo_count(n)*2-2)
+	answer = str(fibo_count(n) * 2 - 2)
 	print('dla n={} ---> {}'.format(n, answer))
 ```
 

@@ -1,4 +1,6 @@
-Zadanie z kategorii PROG za 200 punktów.
+## Different And Notorious Alignment [PROG 200]
+
+>Access the server in 54.175.35.248:8001
 
 Pierwsze z serii 4 bardzo podobnych zadań:
 
@@ -7,10 +9,7 @@ Pierwsze z serii 4 bardzo podobnych zadań:
  * [Fibonacci Calls (prog 400)](Fibonacci_Calls-prog400)
  * [Vibranium Circuit Challenge (prog 400)](Vibranium_Circuit_Challenge-prog400)
 
-Treść zadania:
-
-Access the server in 54.175.35.248:8001
-
+### Rozwiązanie:
 
 Po połączeniu z serwerem `nc 54.175.35.248 8001` dostajemy właściwą treść zadania:
 
@@ -65,10 +64,8 @@ Chwila zabawy i po chwili wiadomo co trzeba zrobić:
      Leaving the game...
 ```
 
-Trzeba porównać indexami obydwie próbki i podać iloma znakami się różnią.
-
-Oczywiście próbki robią się coraz dłuższe i pojawia się w nich znacznie więcej znaków niż tylko `AGCT`.
-
+Trzeba porównać indexami obydwie próbki i podać iloma znakami się różnią.<br>
+Oczywiście próbki robią się coraz dłuższe i pojawia się w nich znacznie więcej znaków niż tylko `AGCT`.<br>
 Poniżej skrypt komunikujący się z serwerem i odpowiadający na pytania + log.
 
 * [client.py](client.py)

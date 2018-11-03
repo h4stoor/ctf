@@ -22,7 +22,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             sample1 = data[p+4:].partition(' ')[0]
             sample2 = data[q+4:].partition(' ')[0]
 
-            answer = str(sum(1 for i, j in zip(sample1, sample2) if i!=j))
+            answer = str(sum(1 for i, j in zip(sample1, sample2) if i != j))
         else:
             answer = ''
 
