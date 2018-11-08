@@ -1,7 +1,6 @@
 ## zipper [MISC 50]
 
->Something doesn't seem quite right with this zip file.
->
+>Something doesn't seem quite right with this zip file.<br>
 >Can you fix it and get the flag?
 
 * [zipper.zip](zipper.zip)
@@ -19,12 +18,12 @@ warning:  filename too long--truncating.
 :  bad extra field length (central)
 ```
 
-But I got important informations:
+But I've got important informations:
 
 * name of the compressed file is too long
 * there is some error in the `length` field value
 
-Looking at the file in `hexdumpie`:
+Looking at the file in `hexdump`:
 
 ```
 $ hexdump -C zipper.zip 
@@ -46,7 +45,7 @@ $ hexdump -C zipper.zip
 000000ec
 ```
 
-Hmm, it looks like there is no file name here at all.
+It looks like there is no file name here at all.
 
 At this point I decided to educationally split this file into the first parts.
 
